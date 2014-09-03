@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id926383" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id503603" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">planet</text>
+    <text id="name">player ship</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">128</real>
-      <real id="height">128</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">planet</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -34,8 +34,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth" name="tileWidth">0</integer>
-        <integer id="tileHeight" name="tileHeight">0</integer>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

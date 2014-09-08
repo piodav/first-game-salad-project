@@ -22,6 +22,7 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <actor id="id289207" />
     <actor id="id846875" />
     <actor id="id503603" />
+    <actor id="id272496" />
   </prototypes>
   <plugins>
     <attributes id="kiip">
@@ -36,8 +37,8 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <attributes id="playhaven" />
   </plugins>
   <scenes>
-    <scene id="id781812" />
     <scene id="id815686" />
+    <scene id="id781812" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -55,5 +56,7 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <table id="id517893" name="QQ Scoreboard">QQ Scoreboard</table>
     <table id="id613242" name="QQ Achievements">QQ Achievements</table>
     <table id="id454764" name="Purchases">Purchases</table>
+    <integer id="id677327" name="player health">100</integer>
+    <integer id="id735487" name="boss health">100</integer>
   </attributes>
 </game>

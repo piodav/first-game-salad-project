@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor id="id544776" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">boss</text>
+    <text id="name">boss ship</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>

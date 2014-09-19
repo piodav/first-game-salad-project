@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id926383" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id673835" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
-    <text id="name">planet</text>
+    <text id="name">Actor 1</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">85</real>
-      <real id="height">85</real>
+      <real id="width">480</real>
+      <real id="height">320</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,21 +18,11 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Picture1</image>
+    <image id="image">sunset</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors>
-    <behavior id="id956285" class="CollideBehavior" enabled="true">
-      <attributes>
-        <text id="name">Collide</text>
-        <text id="bundleName">Collide.behavior</text>
-        <text id="prototypeKey">id503603</text>
-        <text id="actorTag">Ground</text>
-        <index id="mode">0</index>
-      </attributes>
-    </behavior>
-  </behaviors>
+  <behaviors />
   <aspects>
     <graphics>
       <attributes>
@@ -44,8 +34,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth" name="tileWidth">0</integer>
-        <integer id="tileHeight" name="tileHeight">0</integer>
+        <integer id="tileWidth">0</integer>
+        <integer id="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>
